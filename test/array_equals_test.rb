@@ -1,3 +1,19 @@
+# Pauline Chane (@PaulineChane on GitHub)
+# Ada Developers Academy C14
+# array_equals_test.rb
+# 09/29/2020
+
+# NOTE: WITHOUT changing the results of array_equals_test.rb,
+# made a minor edit to remove the deprecation warning:
+# anywhere with the following:
+# array_equals(array1,array2).must_equal [BOOLEAN]
+#
+# has now been converted to:
+# expect(array_equals(array1,array2)).must_equal [BOOLEAN]
+#
+# WITHOUT modifying the expected results.
+
+
 require 'minitest/autorun'
 require 'minitest/reporters'
 require_relative '../lib/array_equals'
