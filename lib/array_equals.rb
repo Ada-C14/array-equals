@@ -4,11 +4,7 @@ def array_equals(array1, array2)
   if (get_length(array1) != get_length(array2))
     return false
   else
-    if !array1 && !array2
-      return true
-    else
-      return compare_strings(array1, array2)
-    end
+    return compare_strings(array1, array2)
   end
 end
 
@@ -22,7 +18,7 @@ end
 
 def compare_strings(array1, array2)
   i = 0
-  while array1[i] && array2[i]
+  while array1 && array2 && array1[i] && array2[i]
     if array1[i] != array2[i]
       return false
     end
