@@ -14,7 +14,7 @@ end
 
 def get_length(array)
   i = 0
-  while array && !array[i].nil?
+  while array && array[i]
     i += 1
   end
   return i
@@ -22,7 +22,7 @@ end
 
 def compare_strings(array1, array2)
   i = 0
-  while !array1[i].nil? && !array2[i].nil?
+  while array1[i] && array2[i]
     if array1[i] != array2[i]
       return false
     end
