@@ -1,0 +1,7 @@
+.travis.yml
+autoconfig.yaml
+Dockerfile
+Gemfile
+Gemfile.lock
+Rakefile
+test.sh
