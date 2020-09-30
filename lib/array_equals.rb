@@ -25,8 +25,8 @@ def array_equals(array1, array2)
     return false
   elsif length1 == nil && length2 == nil
     return true
-  elsif
-    length1 == nil || length2 == nil
+  elsif length1 == nil || length2 == nil
+    return false
   else
     compare_elements(array1, array2)
   end
