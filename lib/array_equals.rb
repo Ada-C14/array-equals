@@ -11,7 +11,7 @@ def array_equals(array1, array2)
     return false
   end
 
-  array1.each_index do | ele|
+  array1.each_index do |ele|
     if array1[ele] != array2[ele]
       return false
     end
