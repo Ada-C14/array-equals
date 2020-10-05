@@ -2,8 +2,15 @@
 # and the same integer values in the same exact order
 def array_equals(array1, array2)
 
-  return false if array1.length != array2.length
-
+  if array1 == [] && array2 == [] || array1 == nil && array2 == nil
+    return true
+  elsif array1.length != array2.length
+    return false
+  end
   
+  array1.each_with_index do |integer, index|
+    return false if integer != array2[index]
+  end
 
+  return true
 end
