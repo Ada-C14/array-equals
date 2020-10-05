@@ -8,6 +8,7 @@ def array_equals(array1, array2)
       count +=1
     else
       same_array = false
+      break
     end
   end
   return same_array
