@@ -22,6 +22,7 @@ def array_equals(array1, array2)
       end
     end
   end
+  
   if same_array.length == array2.length
     return true
   else
