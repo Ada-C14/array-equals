@@ -75,5 +75,13 @@ describe "array equals" do
       
       expect(array_equals(array1, array2)).must_equal false
     end
+
+    it "arrays have same elements but not in the same order" do
+      array1 = [10, 20, 30, 40, 50, 60]
+      array2 = [10, 20, 30, 40, 60, 50]
+
+      expect(array_equals(array1, array2)).must_equal false
+    end
+
   end
 end
