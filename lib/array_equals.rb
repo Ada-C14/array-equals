@@ -4,6 +4,12 @@ array1 = [2, 2, 4, 6]
 array2 = [2, 2, 4, 8]
 
 def array_equals(array1, array2)
+  if array1 == nil && array2 == nil
+    return true
+  elsif array1 == nil || array2 == nil
+    return false
+  end
+
   if array1.length != array2.length
     return false
   end
