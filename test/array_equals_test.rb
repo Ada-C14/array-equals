@@ -11,6 +11,7 @@ describe "array equals" do
       expect(array_equals(array1, array2)).must_equal true
     end
 
+
     it "arrays not equal: first six elements are same" do
       array1 = [10, 20, 30, 40, 50, 60]
       array2 = [10, 20, 30, 40, 50, 60, 70]
