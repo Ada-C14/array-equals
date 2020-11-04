@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/reporters'
 require_relative '../lib/array_equals'
-
+# this is a comment from Noor
 describe "array equals" do
   describe "basic tests" do
     it "arrays are equal" do
